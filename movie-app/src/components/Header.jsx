@@ -1,4 +1,3 @@
-import { Route, Routes} from "react-router-dom"
 import { NavLink } from "react-router-dom";
 
 export const Header = () => {
