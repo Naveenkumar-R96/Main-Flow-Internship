@@ -16,3 +16,11 @@
         
        
     }
+
+    .text-overflow-2{
+        display: -webkit-box;
+        --webkit-line-clam:2;
+        --webkit-box-orient:vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
