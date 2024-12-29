@@ -14,7 +14,7 @@ import { conMin } from "../utils/utils";
 
   useEffect(()=>{
       async function fetchMovie(){
-          fetch(url).then((res)=> res.json()).then((jsonData)=>{setMovie(jsonData);console.log(jsonData)})
+          fetch(url).then((res)=> res.json()).then((jsonData)=>{setMovie(jsonData)})
       }
       fetchMovie()
   },[] )
@@ -45,7 +45,7 @@ import { conMin } from "../utils/utils";
             <i className="bi-bi-people-fill text-success mx-2"></i>{movie.vote_count}
           </p>
 
-            <table className="table table-bordered w-50 center">
+            <table className="table table-bordered w-50 center justify-content-center">
               <tbody>
                 <tr>
                   <th>Runtime</th>
