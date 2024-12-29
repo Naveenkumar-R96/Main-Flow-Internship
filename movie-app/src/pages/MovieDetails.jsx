@@ -59,7 +59,7 @@ import { conMin } from "../utils/utils";
                   <th>Spoken Language</th>
                   <td> {movie.spoken_languages?(<p >
             {movie.spoken_languages.map((genre)=>(
-              <span key={genre.id} >{genre.name} </span>
+              <span key={genre.id} >{genre.english_name} </span>
             ))}
           </p>):''}</td>
                 </tr>
